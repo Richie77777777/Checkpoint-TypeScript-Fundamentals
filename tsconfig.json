@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",                           // Target modern JavaScript
+    "module": "commonjs",                      // Module system used in Node.js
+    "outDir": "./dist",                        // Output directory for compiled files
+    "strict": true,                            // Enable all strict type-checking options
+    "esModuleInterop": true                    // For default imports of CommonJS modules
+  },
+  "include": ["./src/**/*"],                    // Include all .ts files in the src directory
+  "exclude": ["node_modules", "**/*.test.ts"]   // Exclude node_modules and test files
+}
